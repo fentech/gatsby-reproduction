@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen h-full;
+}
+
+@layer base {
+  /* :root [data-theme='light'] {
+    --b1: #fff;
+  }
+
+  :root,
+  :root [data-theme='dark'] {
+    --b1: #300;
+  } */
+}
